@@ -1,19 +1,9 @@
-## And breathe...
+## És lélegezz ...
 
-1. Replace the last five lines with:
+1. Cserélje ki az utolsó öt sort a következőkkel:
     
     ```python
-start_humidity = sense.humidity
-
-while True:
-    print(sense.humidity)
-    if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
-    elif sense.humidity > start_humidity + 5:
-        sense.set_pixels(normal)
-    else:
-        sense.set_pixels(sad)
-    sleep(1)
+start_humidity = sense.humidity while True: print (sense.humidity), ha sense.humidity > start_humidity + 10: sense.set_pixels (boldog) elif sense.humidity > start_humidity + 5: sense.set_pixels (normál) egyéb: sense.set_pixels (szomorú) alvás (1)
 ```
 
-2. Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+2. Futtassa újra a kódot. Most lélegezzük be a Sense HAT-ot és nézzük meg, hogy mosolyogjon!
