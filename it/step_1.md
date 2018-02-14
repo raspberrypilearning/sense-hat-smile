@@ -1,3 +1,3 @@
-## Introduction
+## introduzione
 
-Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display
+Impara a leggere i dati dei sensori da HAT Sense usando Python, e come usare pixel art sul display dei pixel di Sense HAT
