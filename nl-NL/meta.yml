@@ -1,0 +1,24 @@
+---
+title: Maak een gevoel HAT glimlach met sensoren
+hero_image: images / banner.png
+description: Leer sensorgegevens lezen van de Sense HAT met Python en hoe u pixelillustraties op de pixelweergave van de SENS HAT gebruikt
+theme: rood
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "fysiek computergebruik"
+technologies: "sense-hat, fysieke computergebruik, python"
+site_areas: ""
+steps:
+  - 
+    title: Invoering
+  - 
+    title: Wat je nodig zult hebben
+  - 
+    title: Test de Sense HAT
+  - 
+    title: gezichten
+  - 
+    title: En adem ...
