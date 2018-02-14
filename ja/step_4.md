@@ -1,19 +1,9 @@
-## Faces
+## 顔
 
-1. Open a new window and type:
+1. 新しいウィンドウを開き、次のように入力します。
     
     ```python
-from sense_hat import SenseHat
-from faces import normal, happy, sad
-from time import sleep
-
-sense = SenseHat()
-
-sense.set_pixels(sad)
-sleep(1)
-sense.set_pixels(normal)
-sleep(1)
-sense.set_pixels(happy)
+from sense_hat import SenseHatは面からインポートします。通常、幸せ、悲しい時間にインポートします。import sense = SenseHat（）sense.set_pixels（sad）sleep（1）sense.set_pixels（normal）sleep（1）sense.set_pixels（happy）
 ```
 
-2. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+2. コードを`F5`で実行します。悲しい顔、普通の顔、そして幸せな顔が現れるはずです。
