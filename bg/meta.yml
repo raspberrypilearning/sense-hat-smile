@@ -1,24 +1,24 @@
 ---
-title: Make a Sense HAT smile with sensors
-hero_image: images/banner.png
-description: Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display
-theme: red
+title: Направете чувство на усмивка HAT с сензори
+hero_image: изображения / banner.png
+description: Научете се да четете сензорни данни от Sense HAT, използвайки Python, и как да използвате пикселно изкуство в пикселния дисплей на Sense HAT
+theme: червен
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "sense-hat, physical computing, python"
+curriculum: програмиране-0, phys-comp-0
+interests: "физически изчисления"
+technologies: "смислена шапка, физически изчисления, питон"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Въведение
   - 
-    title: What you will need
+    title: Какво ще ви трябва
   - 
-    title: Test the Sense HAT
+    title: Тествайте Sense HAT
   - 
     title: Faces
   - 
-    title: And breathe...
+    title: И дишайте ...
