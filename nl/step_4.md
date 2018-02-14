@@ -1,19 +1,9 @@
-## Faces
+## gezichten
 
-1. Open a new window and type:
+1. Open een nieuw venster en typ:
     
     ```python
-from sense_hat import SenseHat
-from faces import normal, happy, sad
-from time import sleep
-
-sense = SenseHat()
-
-sense.set_pixels(sad)
-sleep(1)
-sense.set_pixels(normal)
-sleep(1)
-sense.set_pixels(happy)
+from sense_hat import SenseHat van gezichten importeren normaal, blij, verdrietig van tijd importeren slaapzin = SenseHat () sense.set_pixels (verdrietig) slaap (1) sense.set_pixels (normaal) slaap (1) sense.set_pixels (blij)
 ```
 
-2. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+2. Voer de code uit met `F5` en je zou een droevig gezicht, een normaal gezicht en een blij gezicht moeten zien verschijnen.
