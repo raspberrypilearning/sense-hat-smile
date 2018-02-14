@@ -1,26 +1,19 @@
-## Test the Sense HAT
+## Testez le Sense HAT
 
-1. Open Python 3 and enter the following commands directly into the shell:
+1. Ouvrez Python 3 et entrez les commandes suivantes directement dans le shell:
     
-    (do not type the chevrons `>>>`)
-    
-    ```python
->>> from sense_hat import SenseHat
->>> sense = SenseHat()
->>> sense.show_message("Hello world")
-```
-
-Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
-
-2. Now try retrieving the sensor values:
+    (ne pas taper les chevrons `>>>`)
     
     ```python
->>> sense.temperature
->>> sense.humidity
->>> sense.pressure
->>> sense.accelerometer
->>> sense.gyroscope
->>> sense.orientation
+>>> à partir de sense_hat import SenseHat>>> sens = SenseHat ()>>> sense.show_message ("Bonjour tout le monde")
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Appuyez sur `Entrez` après chaque ligne. Après la troisième ligne, le message 'Hello world' devrait apparaître sur l'écran de Sense HAT.
+
+2. Essayez maintenant de récupérer les valeurs du capteur:
+    
+    ```python
+>>> sense.temperature>>> sens.humidité>>> sens.pression>>> sense.acceléromètre>>> sense.gyroscope>>> sense.orientation
+```
+
+Lorsque vous appuyez sur `Enter`, vous voyez la valeur du capteur.
