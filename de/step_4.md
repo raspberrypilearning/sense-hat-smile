@@ -1,19 +1,9 @@
-## Faces
+## Gesichter
 
-1. Open a new window and type:
+1. Öffne ein neues Fenster und tippe:
     
     ```python
-from sense_hat import SenseHat
-from faces import normal, happy, sad
-from time import sleep
-
-sense = SenseHat()
-
-sense.set_pixels(sad)
-sleep(1)
-sense.set_pixels(normal)
-sleep(1)
-sense.set_pixels(happy)
+von sense_hat import SenseHat von Gesichtern importieren normal, fröhlich, traurig von Zeit importieren Schlaf fühlen = SenseHat () sense.set_pixels (traurig) schlafen (1) sense.set_pixels (normal) schlafen (1) sense.set_pixels (fröhlich)
 ```
 
-2. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+2. Führen Sie den Code mit `F5` aus und Sie sollten ein trauriges Gesicht, ein normales Gesicht und ein glückliches Gesicht sehen.
