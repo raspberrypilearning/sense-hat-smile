@@ -1,19 +1,9 @@
-## Faces
+## چهره ها
 
-1. Open a new window and type:
+1. یک پنجره جدید باز کنید و تایپ کنید:
     
     ```python
-from sense_hat import SenseHat
-from faces import normal, happy, sad
-from time import sleep
-
-sense = SenseHat()
-
-sense.set_pixels(sad)
-sleep(1)
-sense.set_pixels(normal)
-sleep(1)
-sense.set_pixels(happy)
+از sense_hat واردات SenseHat از چهره واردات طبیعی، خوشحال، غم انگیز از زمان واردات خواب احساس = SenseHat () sens.set_pixels (غمگین) خواب (1) sense.set_pixels (طبیعی) خواب (1) sense.set_pixels (خوشحال)
 ```
 
-2. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+2. اجرای کد با `F5` و شما باید یک صورت غمگین، صورت طبیعی، و یک صورت شاد ظاهر می شود.
