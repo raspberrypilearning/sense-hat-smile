@@ -1,26 +1,19 @@
-## Test the Sense HAT
+## センスHATをテストする
 
-1. Open Python 3 and enter the following commands directly into the shell:
+1. Python 3を開き、次のコマンドをシェルに直接入力します。
     
-    (do not type the chevrons `>>>`)
-    
-    ```python
->>> from sense_hat import SenseHat
->>> sense = SenseHat()
->>> sense.show_message("Hello world")
-```
-
-Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
-
-2. Now try retrieving the sensor values:
+    （シェブロンを入力しないでください`>>>`）
     
     ```python
->>> sense.temperature
->>> sense.humidity
->>> sense.pressure
->>> sense.accelerometer
->>> sense.gyroscope
->>> sense.orientation
+>>> sense_hatからのインポートSenseHat>>> sense = SenseHat（）>>> sense.show_message（ "Hello world"）
 ```
 
-When you press `Enter`, you will see the sensor's value.
+プレス`入力`各行の後に。 3行目の後、Sense HATのディスプレイに「Hello world」というメッセージが表示されます。
+
+2. 次にセンサー値を取得してみましょう：
+    
+    ```python
+>>> sense.temperature>>> sense.humidity>>> sense.pressure>>> sense.accelerometer>>> sense.gyroscope>>>センス。オリエンテーション
+```
+
+`Enter`を押すと、センサーの値が表示されます。
