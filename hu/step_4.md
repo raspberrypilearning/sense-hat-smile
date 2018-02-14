@@ -1,19 +1,9 @@
-## Faces
+## arcok
 
-1. Open a new window and type:
+1. Nyisson meg egy új ablakot, és írja be:
     
     ```python
-from sense_hat import SenseHat
-from faces import normal, happy, sad
-from time import sleep
-
-sense = SenseHat()
-
-sense.set_pixels(sad)
-sleep(1)
-sense.set_pixels(normal)
-sleep(1)
-sense.set_pixels(happy)
+sense_hat import SenseHat az arcoktól import normális, boldog, szomorú az idő importja alvás sense = SenseHat () sense.set_pixels (szomorú) alvás (1) sense.set_pixels (normál) alvás (1) sense.set_pixels (boldog)
 ```
 
-2. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+2. Futtassa a kódot a `F5` paranccsal és látnod kell egy szomorú arcot, egy normális arcot és egy boldog arcot.
