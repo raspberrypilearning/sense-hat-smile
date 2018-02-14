@@ -1,19 +1,9 @@
-## And breathe...
+## И дишайте ...
 
-1. Replace the last five lines with:
+1. Заменяйте последните пет реда с:
     
     ```python
-start_humidity = sense.humidity
-
-while True:
-    print(sense.humidity)
-    if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
-    elif sense.humidity > start_humidity + 5:
-        sense.set_pixels(normal)
-    else:
-        sense.set_pixels(sad)
-    sleep(1)
+start_humidity = sense.humidity докато True: print (sense.humidity) ако sense.humidity > начална_мощност +10: sense.set_pixels (щастлива) elif sense.humidity > начална_мощност + 5: sense.set_pixels (нормално) else: sense.set_pixels (тъжен) sleep (1)
 ```
 
-2. Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+2. Стартирайте отново кода. Сега дишайте в Sense HAT и вижте дали можете да се усмихнете!
