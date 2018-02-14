@@ -1,19 +1,9 @@
-## And breathe...
+## En adem ...
 
-1. Replace the last five lines with:
+1. Vervang de laatste vijf regels door:
     
     ```python
-start_humidity = sense.humidity
-
-while True:
-    print(sense.humidity)
-    if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
-    elif sense.humidity > start_humidity + 5:
-        sense.set_pixels(normal)
-    else:
-        sense.set_pixels(sad)
-    sleep(1)
+start_humidity = sense.humidity while True: print (sense.humidity) if sense.humidity > start_humidity + 10: sense.set_pixels (happy) elif sense.humidity > start_humidity + 5: sense.set_pixels (normaal) anders: sense.set_pixels (sad) sleep (1)
 ```
 
-2. Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+2. Voer de code opnieuw uit. Adem nu op de Sense HAT en kijk of je het kunt laten lachen!
