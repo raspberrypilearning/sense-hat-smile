@@ -16,4 +16,4 @@ sleep(1)
 sense.set_pixels(happy)
 ```
 
-2. Exécutez le code avec `F5` et vous devriez voir un visage triste, un visage normal, et un visage heureux apparaît.
+2. Exécutez le code avec la touche `F5` et vous devriez voir un visage triste apparaître, suivi d'un visage normal puis d'un visage joyeux.
