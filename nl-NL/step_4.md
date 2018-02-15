@@ -1,4 +1,4 @@
-## gezichten
+## Gezichten
 
 1. Open een nieuw venster en typ:
     
