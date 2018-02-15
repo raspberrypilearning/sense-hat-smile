@@ -1,15 +1,15 @@
 ---
-title: Faire un sourire de sens HAT avec des capteurs
-hero_image: images / banner.png
-description: Apprenez à lire les données des capteurs du Sense HAT en utilisant Python, et comment utiliser pixel art sur l'affichage des pixels du Sense HAT
+title: Faites sourire le Sense HAT avec ses capteurs
+hero_image: images/banner.png
+description: Apprenez à lire les données des capteurs du Sense HAT avec Python et à afficher de l'art pixel sur l'affichage du Sense HAT
 theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmation-0, phys-comp-0
-interests: "informatique physique"
-technologies: "sense-hat, informatique physique, python"
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "sense-hat, physical computing, python"
 site_areas: ""
 steps:
   - 
