@@ -1,3 +1,3 @@
 ## Einleitung
 
-Lernen Sie, Sensordaten aus dem Sense HAT mit Python zu lesen und wie Sie Pixel-Art auf der Pixelanzeige des Sense HAT verwenden
+Lerne, Sensordaten mit Python aus dem Sense HAT zu lesen und wie du Pixel-Art auf der Pixelanzeige des Sense HAT verwendest
