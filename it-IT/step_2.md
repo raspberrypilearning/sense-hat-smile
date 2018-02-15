@@ -3,4 +3,4 @@
 ### Hardware
 
 - Raspberry Pi
-- CAPPELLO SENS
+- Sense HAT
