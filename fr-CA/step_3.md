@@ -12,10 +12,15 @@
 
 Appuyez sur `Entrée` après chaque ligne. Après la troisième ligne, le message "Bonjour monde!" devrait apparaître sur l'affichage du Sense HAT.
 
-2. Essayez maintenant de récupérer les valeurs du capteur:
+2. Maintenant, essayez de lire les valeurs des capteurs:
     
     ```python
->>> sense.temperature>>> sens.humidité>>> sens.pression>>> sense.acceléromètre>>> sense.gyroscope>>> sense.orientation
+>>> sense.temperature
+>>> sense.humidity
+>>> sense.pressure
+>>> sense.accelerometer
+>>> sense.gyroscope
+>>> sense.orientation
 ```
 
-Lorsque vous appuyez sur `Enter`, vous voyez la valeur du capteur.
+Lorsque vous appuierez sur `Entrée`, vous verrez les valeurs des capteurs.
