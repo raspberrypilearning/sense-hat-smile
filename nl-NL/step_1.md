@@ -1,3 +1,3 @@
-## Introductie
+## Inleiding
 
-Leer met behulp van Python sensorgegevens lezen van de Sense HaT en hoe je pixelillustraties op de Sense Hat aanstuurt
+Leer met behulp van Python sensorgegevens lezen van de Sense HAT en hoe je met pixelillustraties op de Sense HAT werkt
