@@ -23,4 +23,4 @@ Druk op `Enter` na elke regel. Na de derde regel verschijnt het bericht 'Hallo w
 >>> sense.orientation
 ```
 
-Wanneer je op `Enter`drukt, zie je de waarde van de sensor.
+Wanneer je op `Enter` drukt, zie je de waarde van de sensor.
