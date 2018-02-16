@@ -5,10 +5,10 @@
     (ne pas taper les chevrons `>>>`)
     
     ```python
->>> à partir de sense_hat import SenseHat>>> sens = SenseHat ()>>> sense.show_message ("Bonjour tout le monde")
+>>> à partir de sense_hat importez SenseHat>>> sens = SenseHat ()>>> sense.afficher_message ("Bonjour le monde")
 ```
 
-Appuyez sur `Entrez` après chaque ligne. Après la troisième ligne, le message 'Hello world' devrait apparaître sur l'écran de Sense HAT.
+Appuyez sur `Entrée` après chaque ligne. Après la troisième ligne, le message 'Bonjour le monde' devrait apparaître sur l'écran de Sense HAT.
 
 2. Essayez maintenant de récupérer les valeurs du capteur:
     
@@ -16,4 +16,4 @@ Appuyez sur `Entrez` après chaque ligne. Après la troisième ligne, le message
 >>> sense.temperature>>> sens.humidité>>> sens.pression>>> sense.acceléromètre>>> sense.gyroscope>>> sense.orientation
 ```
 
-Lorsque vous appuyez sur `Enter`, vous voyez la valeur du capteur.
+Lorsque vous appuyez sur `Entrée`, vous voyez la valeur du capteur.
