@@ -2,7 +2,7 @@
 
 1. Öffne Python 3 und gib die folgenden Befehle direkt in die Shell ein:
     
-    (Bitte die Größer-Zeichen nicht eingeben `>>>`)
+    (Bitte die Größer-Zeichen `>>>` nicht eingeben)
     
     ```python
     >>> from sense_hat import SenseHat
@@ -10,7 +10,7 @@
     >>> sensoren.show_message("Hallo Welt")
     ```
     
-    Drücke am Ende jeder Zeile `Enter`. Nach der dritten Zeile sollte die Meldung "Hallo Welt" auf dem Display des Sense HAT erscheinen.
+    Drücke `Enter` am Ende jeder Zeile. Nach der dritten Zeile sollte die Meldung "Hallo Welt" auf dem Display des Sense HAT erscheinen.
 
 2. Versuche nun, die Sensorwerte abzurufen:
     
@@ -23,4 +23,4 @@
     >>> sensoren.orientation
     ```
     
-    Wenn du `Enter` drückst, siehst du den Wert des Sensors.
+    Wenn du `Enter` am Ende der Zeile drückst, siehst du den Wert des Sensors.
