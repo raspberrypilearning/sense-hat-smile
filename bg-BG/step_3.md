@@ -5,15 +5,15 @@
     (не напишете шевроните `>>>`|
     
     ```python
->| || 123_4_1_321 123_4_2_321 | от sense_hat внос SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Здравей свят")
-```
-
-Натиснете `Въведете` след всеки ред. След третия ред, на екрана на Sense HAT трябва да се появи съобщението "Hello world".
+    >| || 123_4_1_321 123_4_2_321 | от sense_hat внос SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Здравей свят")
+    ```
+    
+    Натиснете `Въведете` след всеки ред. След третия ред, на екрана на Sense HAT трябва да се появи съобщението "Hello world".
 
 2. Сега опитайте да извлечете стойностите на сензорите:
     
     ```python
->| || 123_4_1_321 123_4_2_321>>>| sense_humidity>>> sense_pressure>>> sense_accelerometer>>> sense_gyroscope>>> sense.orientation
-```
-
-Когато натиснете `Въведете`, ще видите стойността на сензора.
+    >| || 123_4_1_321 123_4_2_321>>>| sense_humidity>>> sense_pressure>>> sense_accelerometer>>> sense_gyroscope>>> sense.orientation
+    ```
+    
+    Когато натиснете `Въведете`, ще видите стойността на сензора.
