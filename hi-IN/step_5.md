@@ -1,9 +1,19 @@
 ## और साँस ...
 
-1. पिछले पांच लाइनों को इस प्रकार बदलें:
+1. आखिरी पांच लाइनों को नीचे दिए गए लाइनों से बदलें:
     
     ```python
-start_humidity = sense.humidity जबकि सच: प्रिंट (sense.humidity) अगर sense.humidity > start_humidity + 10: sense.set_pixels (खुश) elif sense.humidity > start_humidity + 5: sense.set_pixels (सामान्य) दूसरा: sense.set_pixels (उदासीन) नींद (1)
-```
+    start_humidity = sense.humidity
+    
+    while True:
+        print(sense.humidity)
+        if sense.humidity > start_humidity + 10:
+            sense.set_pixels(happy)
+        elif sense.humidity > start_humidity + 5:
+            sense.set_pixels(normal)
+        else:
+            sense.set_pixels(sad)
+        sleep(1)
+    ```
 
-2. कोड फिर से चलाएं अब संवेदना हथियार पर साँस लो और देखो कि क्या आप मुस्कान कर सकते हैं!
+2. कोड फिर से चलाएं। अब Sense HAT पर साँस ले और देखे कि क्या आप उसे हंसाने में सक्षम हैं!
