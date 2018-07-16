@@ -5,22 +5,22 @@
     (Bitte die Größer-Zeichen nicht eingeben `>>>`)
     
     ```python
->>> from sense_hat import SenseHat
->>> sensoren = SenseHat()
->>> sensoren.show_message("Hallo Welt")
-```
-
-Drücke nach jeder Zeile `Enter`. Nach der dritten Zeile sollte die Meldung "Hallo Welt" auf dem Display des Sense HAT erscheinen.
+    >>> from sense_hat import SenseHat
+    >>> sensoren = SenseHat()
+    >>> sensoren.show_message("Hallo Welt")
+    ```
+    
+    Drücke am Ende jeder Zeile `Enter`. Nach der dritten Zeile sollte die Meldung "Hallo Welt" auf dem Display des Sense HAT erscheinen.
 
 2. Versuche nun, die Sensorwerte abzurufen:
     
     ```python
->>> sensoren.temperature
->>> sensoren.humidity
->>> sensoren.pressure
->>> sensoren.accelerometer
->>> sensoren.gyroscope
->>> sensoren.orientation
-```
-
-Wenn du `Enter` drückst, siehst du den Wert des Sensors.
+    >>> sensoren.temperature
+    >>> sensoren.humidity
+    >>> sensoren.pressure
+    >>> sensoren.accelerometer
+    >>> sensoren.gyroscope
+    >>> sensoren.orientation
+    ```
+    
+    Wenn du `Enter` drückst, siehst du den Wert des Sensors.
