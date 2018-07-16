@@ -1,24 +1,28 @@
 ---
-title: संवेदक के साथ एक मुस्कुराहट करें
-hero_image: छवियों / banner.png
+title: Sense HAT पर सेंसरों की मदद से मुस्कुराहट पैदा करे
+hero_image: images/cover.png
 description: सेंथ एचएटी से अजगर का सेंसर डेटा पढ़ना सीखें और सेंस हैट के पिक्सेल डिस्प्ले पर पिक्सेल कला का उपयोग कैसे करें
-theme: लाल
+theme: red
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: प्रोग्रामिंग -0, फिज़-कंप-0
-interests: "शारीरिक कंप्यूटिंग"
-technologies: "अर्थ-टोपी, भौतिक कंप्यूटिंग, अजगर"
-site_areas: ""
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: ''
+technologies: sense-hat, electronic-components, python
+site_areas: jam
+hardware: sense-hat, electronic-components
+software: python
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: परिचय
   - 
-    title: तुम क्या आवश्यकता होगी
+    title: आपको किन चीजों की आवश्यकता होगी
   - 
-    title: सेंस एचएटी परीक्षण करें
+    title: Sense HAT का परीक्षण करें
   - 
-    title: चेहरे के
+    title: चेहरे
   - 
     title: और साँस ...
