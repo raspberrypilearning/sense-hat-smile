@@ -1,6 +1,6 @@
 ## Gesichter
 
-1. Öffne ein neues Fenster und tippe:
+1. Öffne ein neues Fenster und tippe folgendes ein:
     
     ```python
     from sense_hat import SenseHat
