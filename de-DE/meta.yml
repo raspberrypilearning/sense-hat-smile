@@ -1,7 +1,7 @@
 ---
 title: Bringe mit Sensoren ein Sense-HAT zum Lächeln
 hero_image: images/cover.png
-description: Lerne, Sensordaten aus dem Sense HAT mit Python zu lesen und wie du Pixel-Art auf der Pixelanzeige des Sense HAT verwendest
+description: Lerne, wie du mit Python Sensordaten aus dem Sense HAT lesen kannst und wie du Pixel-Art auf der Pixelanzeige des Sense HAT verwendest
 theme: red
 duration: 2
 listed: false
