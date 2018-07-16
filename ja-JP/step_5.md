@@ -3,7 +3,17 @@
 1. 最後の5行を次のように置き換えます。
     
     ```python
-start_humidity = sense.humidity while True：sense.humidityの場合、print（sense.humidity）> start_humidity + 10：sense.set_pixels（ハッピー）elif sense.humidity > start_humidity + 5：sense.set_pixels（normal）else：sense.set_pixels（sad）sleep（1）
-```
+    start_humidity = sense.humidity
+    
+    while True:
+        print(sense.humidity)
+        if sense.humidity > start_humidity + 10:
+            sense.set_pixels(happy)
+        elif sense.humidity > start_humidity + 5:
+            sense.set_pixels(normal)
+        else:
+            sense.set_pixels(sad)
+        sleep(1)
+    ```
 
-2. コードをもう一度実行します。 Sense HATで今すぐ呼吸し、笑顔にすることができますか？
+2. コードをもう一度実行します。 さぁ、Sense HATに吹きかけ、笑顔にすることができますか？
