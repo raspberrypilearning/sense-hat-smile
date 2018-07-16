@@ -1,19 +1,26 @@
-## सेंस एचएटी परीक्षण करें
+## Sense HAT का परीक्षण करें
 
-1. अजगर 3 खोलें और शेल में सीधे निम्नलिखित कमांड दर्ज करें:
+1. Python 3 खोलें और शेल में सीधे निम्नलिखित कमांड दर्ज करें:
     
-    (चेवर्ण टाइप नहीं करें `>>>`)
-    
-    ```python
->>> sense_hat से आयात SenseHat>>> sense = SenseHat ()>>> sense.show_message ("हैलो वर्ल्ड")
-```
-
-प्रेस `दर्ज करें` प्रत्येक पंक्ति के बाद तीसरी पंक्ति के बाद, 'हेलो वर्ल्ड' संदेश सेंस हैट प्रदर्शन पर दिखाई देना चाहिए।
-
-2. अब संवेदक मूल्यों को पुनः प्राप्त करने का प्रयास करें:
+    (चेवर्ण टाइप न करें `>>>`)
     
     ```python
->>> sense.temperature>>> sense.humidity>>> sense.pressure>>> sense.accelerometer>>> sense.gyroscope>>> sense.orientation
-```
+    >>> from sense_hat import SenseHat
+    >>> sense = SenseHat()
+    >>> sense.show_message("Hello world")
+    ```
+    
+    प्रत्येक पंक्ति के बाद `Enter` दबाए। तीसरी पंक्ति के बाद, 'Hello world' संदेश Sense HAT की डिस्प्लेय पर दिखाई देना चाहिए।
 
-जब आप दबाते हैं 123_6_0_321 | एन्टर करें</code>, आप सेंसर का मूल्य देखेंगे।
+2. अब सेंसर मूल्यों को पुनः प्राप्त करने का प्रयास करें:
+    
+    ```python
+    >>> sense.temperature
+    >>> sense.humidity
+    >>> sense.pressure
+    >>> sense.accelerometer
+    >>> sense.gyroscope
+    >>> sense.orientation
+    ```
+    
+    `Enter` दबाने के पश्च्यात, आप सेंसर मूल्य देख सकेंगे।
