@@ -1,9 +1,19 @@
-## चेहरे के
+## चेहरे
 
-1. एक नई विंडो और प्रकार खोलें:
+1. एक नई विंडो को खोले और टाइप करे:
     
     ```python
-sense_hat से SenseHat से आयात सामान्य, खुश, समय से सोने के आयात से उदास उदास भावना = SenseHat () sense.set_pixels (उदासी) नींद (1) sense.set_pixels (सामान्य) नींद (1) sense.set_pixels (खुश)
-```
+    from sense_hat import SenseHat
+    from faces import normal, happy, sad
+    from time import sleep
+    
+    sense = SenseHat()
+    
+    sense.set_pixels(sad)
+    sleep(1)
+    sense.set_pixels(normal)
+    sleep(1)
+    sense.set_pixels(happy)
+    ```
 
-2. साथ कोड चलाएं `F5` और आपको एक उदास चेहरे, एक सामान्य चेहरे और एक खुश चेहरा दिखाई देना चाहिए।
+2. `F5` दबाकर कोड चलाने के पश्च्यात आपको एक उदास चेहरे, एक सामान्य चेहरे और एक प्रसन्न चेहरा दिखाई देना चाहिए।
