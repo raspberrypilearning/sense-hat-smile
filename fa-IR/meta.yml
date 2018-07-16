@@ -1,0 +1,28 @@
+---
+title: با استفاده از حسگرها، در Sense HAT تصویر لبخند ایجاد کنید
+hero_image: images/cover.png
+description: یادگیری نحوه خواندن اطلاعات حسگر از Sense HAT با استفاده از پایتون و نحوه استفاده از پیکسل بر روی نمایشگر پیکسلی Sense HAT
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: ''
+technologies: sense-hat, electronic-components, python
+site_areas: jam
+hardware: sense-hat, electronic-components
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: مقدمه
+  - 
+    title: آنچه شما نیاز دارید
+  - 
+    title: Sense HAT را امتحان کنید
+  - 
+    title: چهره‌ها
+  - 
+    title: و نفس بکشید...
