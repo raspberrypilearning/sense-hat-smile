@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open a new window and type:
+Close the REPL and type the following into the main window:
 
 ```python
 from sense_hat import SenseHat
@@ -22,6 +22,6 @@ sense.set_pixels(happy)
 
 --- task ---
 
-Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
 
 --- /task ---
