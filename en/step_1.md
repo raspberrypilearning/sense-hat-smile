@@ -11,9 +11,16 @@ title: What you will need
 - Raspberry Pi computer
 - Sense HAT
 
-You'll need to download the `faces.py` file before starting. Open a Terminal window and enter the following command:
+You'll need to install Mu:
 
 ```bash
+sudo apt install mu-editor
+```
+
+and download the `faces.py` file before starting:
+
+```bash
+cd mu_code
 wget http://rpf.io/shfaces -O faces.py
 ```
 

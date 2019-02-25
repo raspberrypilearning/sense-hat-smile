@@ -2,14 +2,12 @@
 
 --- task ---
 
-Open **Python 3** and enter the following commands directly into the shell:
-
-(do not type the chevrons `>>>`)
+Open **Mu**, click the **REPL** icon and enter the following commands directly into the REPL:
 
 ```python
->>> from sense_hat import SenseHat
->>> sense = SenseHat()
->>> sense.show_message("Hello world")
+from sense_hat import SenseHat
+sense = SenseHat()
+sense.show_message("Hello world")
 ```
 
 Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
@@ -21,12 +19,12 @@ Press `Enter` after each line. After the third line, the message 'Hello world' s
 Now try retrieving the sensor values:
 
 ```python
->>> sense.temperature
->>> sense.humidity
->>> sense.pressure
->>> sense.accelerometer
->>> sense.gyroscope
->>> sense.orientation
+sense.temperature
+sense.humidity
+sense.pressure
+sense.accelerometer
+sense.gyroscope
+sense.orientation
 ```
 
 When you press `Enter`, you will see the sensor's value.
