@@ -1,19 +1,27 @@
-## چهره‌ها
+## And breathe...
 
-1. یک پنجره جدید باز کنید و تایپ کنید:
-    
-    ```python
-    from sense_hat import SenseHat
-    from faces import normal, happy, sad
-    from time import sleep
-    
-    sense = SenseHat()
-    
-    sense.set_pixels(sad)
-    sleep(1)
-    sense.set_pixels(normal)
-    sleep(1)
-    sense.set_pixels(happy)
-    ```
+\--- task \---
 
-2. با فشردن `F5` کد را اجرا کنید و می‌بینید که یک چهره‌ی غمگین، یک چهره‌ی طبیعی و یک چهره‌ی خوشحال ظاهر می شود.
+Replace the last five lines with:
+
+```python
+start_humidity = sense.humidity
+
+while True:
+    print(sense.humidity)
+    if sense.humidity > start_humidity + 10:
+        sense.set_pixels(happy)
+    elif sense.humidity > start_humidity + 5:
+        sense.set_pixels(normal)
+    else:
+        sense.set_pixels(sad)
+    sleep(1)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+
+\--- /task \---
