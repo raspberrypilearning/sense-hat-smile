@@ -1,26 +1,27 @@
-## Sense HATを試す
+## Faces
 
-1. Python 3を開き、以下のコマンドをシェルに直接入力します。
-    
-    （シェブロンを入力しないでください`>>>`）
-    
-    ```python
-    >>> from sense_hat import SenseHat
-    >>> sense = SenseHat()
-    >>> sense.show_message("Hello world")
-    ```
-    
-    各行入力後に`Enter`を押してください。 3行目の後、Sense HATのディスプレイに「Hello world」というメッセージが表示されます。
+\--- task \---
 
-2. 次にセンサー値を取得してみましょう：
-    
-    ```python
-    >>> sense.temperature
-    >>> sense.humidity
-    >>> sense.pressure
-    >>> sense.accelerometer
-    >>> sense.gyroscope
-    >>> sense.orientation
-    ```
-    
-    `Enter`を押すと、センサーの値が表示されます。
+Close the REPL and type the following into the main window:
+
+```python
+from sense_hat import SenseHat
+from faces import normal, happy, sad
+from time import sleep
+
+sense = SenseHat()
+
+sense.set_pixels(sad)
+sleep(1)
+sense.set_pixels(normal)
+sleep(1)
+sense.set_pixels(happy)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+
+\--- /task \---
