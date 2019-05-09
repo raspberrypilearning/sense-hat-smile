@@ -1,26 +1,27 @@
-## Sense HAT का परीक्षण करें
+## Faces
 
-1. Python 3 खोलें और शेल में सीधे निम्नलिखित कमांड दर्ज करें:
-    
-    (चेवर्ण टाइप न करें `>>>`)
-    
-    ```python
-    >>> from sense_hat import SenseHat
-    >>> sense = SenseHat()
-    >>> sense.show_message("Hello world")
-    ```
-    
-    प्रत्येक पंक्ति के बाद `Enter` दबाए। तीसरी पंक्ति के बाद, 'Hello world' संदेश Sense HAT की डिस्प्लेय पर दिखाई देना चाहिए।
+\--- task \---
 
-2. अब सेंसर मूल्यों को पुनः प्राप्त करने का प्रयास करें:
-    
-    ```python
-    >>> sense.temperature
-    >>> sense.humidity
-    >>> sense.pressure
-    >>> sense.accelerometer
-    >>> sense.gyroscope
-    >>> sense.orientation
-    ```
-    
-    `Enter` दबाने के पश्च्यात, आप सेंसर मूल्य देख सकेंगे।
+Close the REPL and type the following into the main window:
+
+```python
+from sense_hat import SenseHat
+from faces import normal, happy, sad
+from time import sleep
+
+sense = SenseHat()
+
+sense.set_pixels(sad)
+sleep(1)
+sense.set_pixels(normal)
+sleep(1)
+sense.set_pixels(happy)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+
+\--- /task \---
