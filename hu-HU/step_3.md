@@ -1,19 +1,27 @@
-## Tesztelje a Sense HAT-ot
+## Faces
 
-1. Nyissa meg a Python 3 parancsot, és adja meg a következő parancsokat közvetlenül a shell-ba:
-    
-    (ne írja be a chevrons `>>>`)
-    
-    ```python
-    >>> sense_hat import SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Hello world")
-    ```
-    
-    Nyomja meg a 123_6_0_321 | Enter</code> gombot minden sor után. A harmadik sor után a "Hello world" üzenet jelenik meg a Sense HAT kijelzőjén.
+\--- task \---
 
-2. Most próbálja meg lekérni az érzékelő értékeit:
-    
-    ```python
-    >>> sense.temperature>>> sense.humidity>>> sense.pressure>>> sense.accelerometer>>> sense.gyroscope>>> sense.orientation
-    ```
-    
-    Ha megnyomja a `Enter`gombot, megjelenik az érzékelő értéke.
+Close the REPL and type the following into the main window:
+
+```python
+from sense_hat import SenseHat
+from faces import normal, happy, sad
+from time import sleep
+
+sense = SenseHat()
+
+sense.set_pixels(sad)
+sleep(1)
+sense.set_pixels(normal)
+sleep(1)
+sense.set_pixels(happy)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+
+\--- /task \---
