@@ -1,9 +1,27 @@
-## Visages
+## And breathe...
 
-1. Ouvrez une nouvelle fenêtre et tapez:
-    
-    ```python
-    à partir de sense_hat importer SenseHat à partir de visages importer normal, heureux, triste à partir du temps importer sommeil sens = SenseHat () sense.set_pixels (triste) sleep (1) sense.set_pixels (normal) sleep (1) sense.set_pixels (content)
-    ```
+\--- task \---
 
-2. Exécutez le code avec `F5` et vous devriez voir apparaître un visage triste, un visage normal, et un visage heureux.
+Replace the last five lines with:
+
+```python
+start_humidity = sense.humidity
+
+while True:
+    print(sense.humidity)
+    if sense.humidity > start_humidity + 10:
+        sense.set_pixels(happy)
+    elif sense.humidity > start_humidity + 5:
+        sense.set_pixels(normal)
+    else:
+        sense.set_pixels(sad)
+    sleep(1)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+
+\--- /task \---
