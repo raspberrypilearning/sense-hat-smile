@@ -1,28 +1,17 @@
 ---
-title: Laat een Sense HAT glimlachen met behulp van sensoren
-hero_image: images/cover.png
+title: Sense HAT smile
+hero_image: images/banner.png
 description: Leer met Python sensorgegevens lezen van de Sense HAT en hoe je met pixelillustraties op de Sense HAT werkt
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
-interests: ''
-technologies: sense-hat, electronic-components, python
-site_areas: jam
-hardware: sense-hat, electronic-components
-software: python
-version: 4
-last_tested: 2017-01-01
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
+    title: Test the Sense HAT
   - 
-    title: Test de Sense HAT
+    title: Faces
   - 
-    title: Gezichten
-  - 
-    title: En adem...
+    title: And breathe...
