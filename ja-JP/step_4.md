@@ -1,19 +1,27 @@
-## 顔
+## And breathe...
 
-1. 新しいウィンドウを開き、以下のように入力します。
-    
-    ```python
-    from sense_hat import SenseHat
-    from faces import normal, happy, sad
-    from time import sleep
-    
-    sense = SenseHat()
-    
-    sense.set_pixels(sad)
-    sleep(1)
-    sense.set_pixels(normal)
-    sleep(1)
-    sense.set_pixels(happy)
-    ```
+\--- task \---
 
-2. `F5`でコードを実行します。悲しい顔、普通の顔、そして幸せな顔が現れるはずです。
+Replace the last five lines with:
+
+```python
+start_humidity = sense.humidity
+
+while True:
+    print(sense.humidity)
+    if sense.humidity > start_humidity + 10:
+        sense.set_pixels(happy)
+    elif sense.humidity > start_humidity + 5:
+        sense.set_pixels(normal)
+    else:
+        sense.set_pixels(sad)
+    sleep(1)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+
+\--- /task \---
