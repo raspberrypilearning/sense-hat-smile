@@ -1,19 +1,27 @@
-## Тествайте Sense HAT
+## Faces
 
-1. Отворете Python 3 и въведете следните команди директно в корпуса:
-    
-    (не напишете шевроните `>>>`|
-    
-    ```python
-    >| || 123_4_1_321 123_4_2_321 | от sense_hat внос SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Здравей свят")
-    ```
-    
-    Натиснете `Въведете` след всеки ред. След третия ред, на екрана на Sense HAT трябва да се появи съобщението "Hello world".
+\--- task \---
 
-2. Сега опитайте да извлечете стойностите на сензорите:
-    
-    ```python
-    >| || 123_4_1_321 123_4_2_321>>>| sense_humidity>>> sense_pressure>>> sense_accelerometer>>> sense_gyroscope>>> sense.orientation
-    ```
-    
-    Когато натиснете `Въведете`, ще видите стойността на сензора.
+Close the REPL and type the following into the main window:
+
+```python
+from sense_hat import SenseHat
+from faces import normal, happy, sad
+from time import sleep
+
+sense = SenseHat()
+
+sense.set_pixels(sad)
+sleep(1)
+sense.set_pixels(normal)
+sleep(1)
+sense.set_pixels(happy)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+
+\--- /task \---
