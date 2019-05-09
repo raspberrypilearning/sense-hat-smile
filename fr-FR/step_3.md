@@ -1,19 +1,27 @@
-## Testez le Sense HAT
+## Faces
 
-1. Ouvrez Python 3 et entrez les commandes suivantes directement dans le shell:
-    
-    (ne pas taper les chevrons `>>>`)
-    
-    ```python
-    >>> à partir de sense_hat importez SenseHat>>> sens = SenseHat ()>>> sense.afficher_message ("Bonjour le monde")
-    ```
-    
-    Appuyez sur `Entrée` après chaque ligne. Après la troisième ligne, le message 'Bonjour le monde' devrait apparaître sur l'écran de Sense HAT.
+\--- task \---
 
-2. Essayez maintenant de récupérer les valeurs du capteur:
-    
-    ```python
-    >>> sense.temperature>>> sens.humidité>>> sens.pression>>> sense.acceléromètre>>> sense.gyroscope>>> sense.orientation
-    ```
-    
-    Lorsque vous appuyez sur `Entrée`, vous voyez la valeur du capteur.
+Close the REPL and type the following into the main window:
+
+```python
+from sense_hat import SenseHat
+from faces import normal, happy, sad
+from time import sleep
+
+sense = SenseHat()
+
+sense.set_pixels(sad)
+sleep(1)
+sense.set_pixels(normal)
+sleep(1)
+sense.set_pixels(happy)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+
+\--- /task \---
