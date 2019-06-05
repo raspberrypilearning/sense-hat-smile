@@ -1,8 +1,8 @@
-## And breathe...
+## En adem ...
 
 \--- task \---
 
-Replace the last five lines with:
+Vervang de laatste vijf regels door:
 
 ```python
 start_humidity = sense.humidity
@@ -18,10 +18,10 @@ while True:
     sleep(1)
 ```
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+Voer de code opnieuw uit. Adem nu op de Sense HAT en kijk of je het kunt laten lachen!
 
 \--- /task \---
