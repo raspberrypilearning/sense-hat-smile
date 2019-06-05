@@ -1,4 +1,4 @@
-## Faces
+## Gezichten
 
 \--- task \---
 
@@ -18,10 +18,10 @@ sleep(1)
 sense.set_pixels(happy)
 ```
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+Voer de code uit met **F5** en je zou een droevig gezicht, een normaal gezicht en een blij gezicht moeten zien verschijnen.
 
 \--- /task \---
