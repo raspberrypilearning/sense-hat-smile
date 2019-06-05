@@ -1,4 +1,4 @@
-## Test the Sense HAT
+## Test de Sense HAT
 
 \--- task \---
 
@@ -10,13 +10,13 @@ sense = SenseHat()
 sense.show_message("Hello world")
 ```
 
-Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
+Druk op `Enter` na elke regel. Na de derde regel verschijnt het bericht 'Hallo wereld' op het scherm van de Sense HAT.
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+Probeer nu de sensorwaarden op te halen:
 
 ```python
 sense.temperature
@@ -27,6 +27,6 @@ sense.gyroscope
 sense.orientation
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Wanneer u op `Enter` drukt, ziet u de waarde van de sensor.
 
 \--- /task \---
