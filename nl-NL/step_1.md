@@ -1,6 +1,6 @@
 ## Inleiding
 
-Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display.
+Leer met behulp van Python sensorgegevens lezen van de Sense HAT en hoe je met pixelillustraties op de Sense HAT werkt.
 
 \--- collapse \---
 
@@ -30,7 +30,7 @@ wget http://rpf.io/shfaces -O faces.py
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Reading sensor data from the Sense HAT using Python
 - RGB colours
