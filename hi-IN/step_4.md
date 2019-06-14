@@ -1,8 +1,8 @@
-## And breathe...
+## और साँस ...
 
 \--- task \---
 
-Replace the last five lines with:
+आखिरी पांच लाइनों को नीचे दिए गए लाइनों से बदलें:
 
 ```python
 start_humidity = sense.humidity
@@ -22,6 +22,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+कोड फिर से चलाएं। अब Sense HAT पर साँस ले और देखे कि क्या आप उसे हंसाने में सक्षम हैं!
 
 \--- /task \---
