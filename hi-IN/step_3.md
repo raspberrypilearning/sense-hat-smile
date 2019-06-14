@@ -1,4 +1,4 @@
-## Faces
+## चेहरे
 
 \--- task \---
 
@@ -22,6 +22,6 @@ sense.set_pixels(happy)
 
 \--- task \---
 
-Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+**F5** दबाकर कोड चलाने के पश्च्यात आपको एक उदास चेहरे, एक सामान्य चेहरे और एक प्रसन्न चेहरा दिखाई देना चाहिए।
 
 \--- /task \---
