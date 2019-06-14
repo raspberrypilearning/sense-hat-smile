@@ -1,4 +1,4 @@
-## Faces
+## Gesichter
 
 \--- task \---
 
@@ -9,19 +9,19 @@ from sense_hat import SenseHat
 from faces import normal, happy, sad
 from time import sleep
 
-sense = SenseHat()
+sensoren = SenseHat()
 
-sense.set_pixels(sad)
+sensoren.set_pixels(sad)
 sleep(1)
-sense.set_pixels(normal)
+sensoren.set_pixels(normal)
 sleep(1)
-sense.set_pixels(happy)
+sensoren.set_pixels(happy)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+Führe den Code mit **F5** aus und du solltest ein trauriges Gesicht, ein normales Gesicht und ein glückliches Gesicht sehen.
 
 \--- /task \---
