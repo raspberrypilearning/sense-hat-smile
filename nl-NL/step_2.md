@@ -2,12 +2,12 @@
 
 \--- task \---
 
-Open **Mu**, click the **REPL** icon and enter the following commands directly into the REPL:
+Open **Mu**, klik op het **REPL** pictogram en typ de volgende commands direct in de REPL:
 
 ```python
 from sense_hat import SenseHat
 sense = SenseHat()
-sense.show_message("Hello world")
+sense.show_message("Hallo wereld")
 ```
 
 Druk op `Enter` na elke regel. Na de derde regel verschijnt het bericht 'Hallo wereld' op het scherm van de Sense HAT.
