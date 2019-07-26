@@ -1,5 +1,5 @@
 ---
-title: Sense HAT smile
+title: لبخند Sense HAT
 hero_image: images/banner.png
 description: یادگیری نحوه خواندن اطلاعات حسگر از Sense HAT با استفاده از پایتون و نحوه استفاده از پیکسل بر روی نمایشگر پیکسلی Sense HAT
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: مقدمه
   - 
-    title: Test the Sense HAT
+    title: Sense HAT را امتحان کنید
   - 
-    title: Faces
+    title: چهره‌ها
   - 
-    title: And breathe...
+    title: و نفس بکشید...
