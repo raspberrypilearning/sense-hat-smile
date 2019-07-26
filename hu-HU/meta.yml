@@ -1,7 +1,7 @@
 ---
-title: Sense HAT smile
+title: Sense HAT mosoly
 hero_image: images/banner.png
-description: Olvassa el a Sense HAT szenzor adatait a Python segítségével, és hogyan használja a képpontot a Sense HAT képpont kijelzőjén
+description: Tanuld meg, hogyan olvashatod a Sense HAT érzékelő adatait Python használatával és hogyan hozz létre pixel műveket a Sense HAT pixel kijelzőjén
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: Bevezetés
   - 
-    title: Test the Sense HAT
+    title: Teszteld a Sense HAT-et
   - 
-    title: Faces
+    title: Arcok
   - 
-    title: And breathe...
+    title: És lélegezz...
