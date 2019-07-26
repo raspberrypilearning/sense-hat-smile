@@ -4,7 +4,7 @@ Leer met behulp van Python sensorgegevens lezen van de Sense HAT en hoe je met p
 
 --- collapse ---
 ---
-title: What you will need
+title: Wat heb je nodig
 ---
 
 - Raspberry Pi computer
