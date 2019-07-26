@@ -1,5 +1,5 @@
 ---
-title: Sense HAT smile
+title: Le sourire du Sense HAT
 hero_image: images/banner.png
 description: Apprenez à lire les données des capteurs du Sense HAT en utilisant Python, et à utiliser le pixel art sur l'écran d'affichage de pixels du Sense HAT
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: introduction
   - 
-    title: Test the Sense HAT
+    title: Teste le Sense HAT
   - 
-    title: Faces
+    title: Visages
   - 
-    title: And breathe...
+    title: Et respire...
