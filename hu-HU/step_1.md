@@ -1,23 +1,23 @@
 ## Bevezetés
 
-Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display.
+Tanuld meg, hogyan olvashatod a Sense HAT érzékelő adatait Python használatával és hogyan hozz létre pixel műveket a Sense HAT pixel kijelzőjén.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Mire lesz szükséged
 
-- Raspberry Pi computer
+- Raspberry Pi számítógép
 - Sense HAT
 
-You'll need to install Mu:
+Fel kell telepítened a Mu-t:
 
 ```bash
 sudo apt install mu-editor
 ```
 
-and download the `faces.py` file before starting:
+és töltsd le a `faces.py` fájlt mielőtt elkezdenéd:
 
 ```bash
 cd mu_code
@@ -30,11 +30,11 @@ wget http://rpf.io/shfaces -O faces.py
 
 * * *
 
-## title: What you will learn
+## title: Mit fogsz megtanulni
 
-- Reading sensor data from the Sense HAT using Python
-- RGB colours
-- How to create pixel art
+- Hogyan olvashatod a Sense HAT érzékelő adatait Python használatával
+- RGB-színek
+- Hogyan készíts ábrákat pixelekből
 
 \--- /collapse \---
 
@@ -42,11 +42,11 @@ wget http://rpf.io/shfaces -O faces.py
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Smile.pdf) is available. Please observe any notes on this page before printing.
+Ha ki kell nyomtatnod a projektet, elérhető [PDF verzióban](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Smile.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
