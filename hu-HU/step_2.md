@@ -1,22 +1,22 @@
-## Test the Sense HAT
+## Teszteld a Sense HAT-et
 
 \--- task \---
 
-Open **Mu**, click the **REPL** icon and enter the following commands directly into the REPL:
+Nyisd meg a **Mu**-t, kattints a **REPL** ikonra és add meg a következő parancsot közvetlenül a REPL-be:
 
 ```python
 from sense_hat import SenseHat
 sense = SenseHat()
-sense.show_message("Hello world")
+sense.show_message("Hello világ")
 ```
 
-Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
+Üss `Enter`-t minden sor után. A harmadik sor után, a 'Hello világ' üzenetnek kell megjelennie a Sense HAT kijelzőjén.
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+Most próbáld meg lekérdezni az érzékelő értékeit:
 
 ```python
 sense.temperature
@@ -27,6 +27,6 @@ sense.gyroscope
 sense.orientation
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Miután megnyomod az `Enter`-t, láthatod az érzékelő értékeit.
 
 \--- /task \---
