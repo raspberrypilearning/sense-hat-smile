@@ -1,8 +1,8 @@
-## And breathe...
+## És lélegezz...
 
 \--- task \---
 
-Replace the last five lines with:
+Cseréld le az utolsó öt sort erre:
 
 ```python
 start_humidity = sense.humidity
@@ -10,11 +10,11 @@ start_humidity = sense.humidity
 while True:
     print(sense.humidity)
     if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
+        sense.set_pixels(boldog)
     elif sense.humidity > start_humidity + 5:
         sense.set_pixels(normal)
     else:
-        sense.set_pixels(sad)
+        sense.set_pixels(szomoru)
     sleep(1)
 ```
 
@@ -22,6 +22,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+Futtasd újra a kódot. Most lehelj a Sense HAT-re és nézd meg, hogy meg tudod-e mosolyogtatni!
 
 \--- /task \---
