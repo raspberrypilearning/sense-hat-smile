@@ -1,10 +1,10 @@
-e = (0, 0, 0)  # empty
-red = (255, 0, 0)  # red
-green = (0, 255, 0)  # green
-blue = (0, 0, 255)  # blue
+e = (0, 0, 0)  # leeg
+rood = (255, 0, 0) # rood
+groen = (0, 255, 0) # groen
+blauw = (0, 0, 255) # blauw
 
-c = blue
-normal = [
+c = blauw
+normaal = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, c, e, e, c, e, e,
@@ -14,8 +14,8 @@ normal = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
 ]
-c = green
-happy = [
+c = groen
+vrolijk = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, c, e, e, c, e, e,
@@ -25,8 +25,8 @@ happy = [
     e, c, c, c, c, c, c, e,
     e, e, e, e, e, e, e, e,
 ]
-c = red
-sad = [
+c =rood
+verdrietig = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, c, e, e, c, e, e,
