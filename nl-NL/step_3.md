@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Close the REPL and type the following into the main window:
+Sluit de REPL en type het volgende in het hoofdscherm:
 
 ```python
 from sense_hat import SenseHat
