@@ -1,27 +1,27 @@
-## Faces
+## Arcok
 
 \--- task \---
 
-Close the REPL and type the following into the main window:
+Zárd be a REPL-t és írd be a következőt a főablakba:
 
 ```python
 from sense_hat import SenseHat
-from faces import normal, happy, sad
+from faces import normal, boldog, szomoru
 from time import sleep
 
 sense = SenseHat()
 
-sense.set_pixels(sad)
+sense.set_pixels(szomoru)
 sleep(1)
 sense.set_pixels(normal)
 sleep(1)
-sense.set_pixels(happy)
+sense.set_pixels(boldog)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+Futtasd a kódot az **F5** lenyomásával és látnod kell egy szomorú, egy semleges és egy boldog arcot megjelenni.
 
 \--- /task \---
