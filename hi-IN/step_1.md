@@ -2,11 +2,9 @@
 
 Sense HAT द्वारा Python की मदद से सेंसर डाटा पढ़े, और Sense HAT के पिक्सेल डिस्प्ले पर पिक्सेल कला बनाए.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: What you will need
 
 - Raspberry Pi computer
 - Sense HAT
@@ -26,11 +24,9 @@ wget http://rpf.io/shfaces -O faces.py
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
 - Reading sensor data from the Sense HAT using Python
 - RGB रंग
@@ -38,9 +34,7 @@ wget http://rpf.io/shfaces -O faces.py
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Information for Jam organisers
 
