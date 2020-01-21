@@ -1,27 +1,27 @@
-## Faces
+## Visages
 
 \--- task \---
 
-Close the REPL and type the following into the main window:
+Ferme le REPL et écrit ce qui suit dans la fenêtre principale :
 
 ```python
 from sense_hat import SenseHat
-from faces import normal, happy, sad
+from faces import normal, content, triste
 from time import sleep
 
 sense = SenseHat()
 
-sense.set_pixels(sad)
+sense.set_pixels(triste)
 sleep(1)
 sense.set_pixels(normal)
 sleep(1)
-sense.set_pixels(happy)
+sense.set_pixels(content)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see a sad face, a normal face, and a happy face appear.
+Exécute le code en appuyant sur la touche **F5** et tu devrais voir apparaître un visage triste, suivi d'un visage normal, suivi d'un visage content.
 
 \--- /task \---
