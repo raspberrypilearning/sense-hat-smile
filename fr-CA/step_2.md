@@ -1,22 +1,22 @@
-## Test the Sense HAT
+## Tester le Sense HAT
 
 \--- task \---
 
-Open **Mu**, click the **REPL** icon and enter the following commands directly into the REPL:
+Ouvre **Mu**, et clique sur l’icône **REPL** et entre la commande qui suit directement dans le REPL :
 
 ```python
 from sense_hat import SenseHat
 sense = SenseHat()
-sense.show_message("Hello world")
+sense.show_message("Bonjour monde")
 ```
 
-Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
+Appuie sur la touche `Entrée` après chaque ligne. Après la troisième ligne, le message 'Bonjour monde' devrait apparaître sur l'écran du Sense HAT.
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+Maintenant, essaie de récupérer les valeurs des capteurs :
 
 ```python
 sense.temperature
@@ -27,6 +27,6 @@ sense.gyroscope
 sense.orientation
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Quand tu appuies sur la touche `Entrée`, tu devrais voir les valeurs des capteurs.
 
 \--- /task \---
