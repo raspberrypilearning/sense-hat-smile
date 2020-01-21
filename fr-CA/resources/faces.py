@@ -1,9 +1,9 @@
-e = (0, 0, 0)  # empty
-red = (255, 0, 0)  # red
-green = (0, 255, 0)  # green
-blue = (0, 0, 255)  # blue
+v = (0, 0, 0)  # vide
+rouge = (255, 0, 0)  # rouge
+vert = (0, 255, 0)  # vert
+bleu = (0, 0, 255). # bleu
 
-c = blue
+c = bleu
 normal = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
@@ -14,8 +14,8 @@ normal = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
 ]
-c = green
-happy = [
+c = vert
+content = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, c, e, e, c, e, e,
@@ -25,8 +25,8 @@ happy = [
     e, c, c, c, c, c, c, e,
     e, e, e, e, e, e, e, e,
 ]
-c = red
-sad = [
+c = rouge
+triste = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, c, e, e, c, e, e,
