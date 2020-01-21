@@ -1,8 +1,8 @@
-## And breathe...
+## Et respirez...
 
 \--- task \---
 
-Replace the last five lines with:
+Remplace les cinq dernières lignes avec :
 
 ```python
 start_humidity = sense.humidity
@@ -10,11 +10,11 @@ start_humidity = sense.humidity
 while True:
     print(sense.humidity)
     if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
+        sense.set_pixels(content)
     elif sense.humidity > start_humidity + 5:
         sense.set_pixels(normal)
     else:
-        sense.set_pixels(sad)
+        sense.set_pixels(triste)
     sleep(1)
 ```
 
@@ -22,6 +22,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+Exécute le code à nouveau. Maintenant, respire près du Sense HAT et voit si tu peux le faire sourire!
 
 \--- /task \---
