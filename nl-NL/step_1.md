@@ -2,22 +2,20 @@
 
 Leer met behulp van Python sensorgegevens lezen van de Sense HAT en hoe je met pixelillustraties op de Sense HAT werkt.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Wat heb je nodig
+## title: What you will need
 
 - Raspberry Pi computer
 - Sense HAT
 
-Je zult Mu moeten installeren:
+You'll need to install Mu:
 
 ```bash
 sudo apt install mu-editor
 ```
 
-en download het `faces.py` bestand voor je start:
+and download the `faces.py` file before starting:
 
 ```bash
 cd mu_code
@@ -26,11 +24,9 @@ wget http://rpf.io/shfaces -O faces.py
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Wat ga je leren
+## title: What you will learn
 
 - Lees de sensor data van de Sense HAT met Python
 - RGB kleuren
@@ -38,15 +34,13 @@ wget http://rpf.io/shfaces -O faces.py
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Informatie voor Jam organisatoren
+## title: Information for Jam organisers
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, is er een [PDF-versie](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Smile.pdf) beschikbaar. Let op de opmerkingen op deze pagina voordat je gaat afdrukken.
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Smile.pdf) is available. Please observe any notes on this page before printing.
 
 \--- /no-print \---
 
