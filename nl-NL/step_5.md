@@ -17,3 +17,17 @@
     ```
 
 2. Voer de code opnieuw uit. Adem nu op de Sense HAT en kijk of je het kunt laten lachen!
+
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+Coen Warries
+
+Robert-Jan Kempenaar
+
+Cor Groot
+
+Bino Maiheu
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
