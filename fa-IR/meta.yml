@@ -1,17 +1,17 @@
 ---
-title: لبخند Sense HAT
+title: Sense HAT smile
 hero_image: images/banner.png
-description: یادگیری نحوه خواندن اطلاعات حسگر از Sense HAT با استفاده از پایتون و نحوه استفاده از پیکسل بر روی نمایشگر پیکسلی Sense HAT
+description: Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: مقدمه
+    title: Introduction
   - 
-    title: Sense HAT را امتحان کنید
+    title: Test the Sense HAT
   - 
-    title: چهره‌ها
+    title: Faces
   - 
-    title: و نفس بکشید...
+    title: And breathe...
