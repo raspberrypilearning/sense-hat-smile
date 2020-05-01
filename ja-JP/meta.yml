@@ -1,14 +1,14 @@
 ---
 title: Sense HAT smile
 hero_image: images/banner.png
-description: Pythonを使用してSense HATからセンサーデータを読み取る方法、Sense HATのピクセル表示でピクセルアートを使用する方法
+description: Learn to read sensor data from the Sense HAT using Python, and how to use pixel art on the Sense HAT's pixel display
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: 前書き
+    title: Introduction
   - 
     title: Test the Sense HAT
   - 
