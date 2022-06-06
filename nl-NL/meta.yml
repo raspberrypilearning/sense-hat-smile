@@ -9,8 +9,6 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Test de Sense HAT
 - title: Gezichten
-  completion: internal
 - title: En adem...

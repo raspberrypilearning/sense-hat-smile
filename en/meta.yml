@@ -9,8 +9,6 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introduction
-  completion: engaged
 - title: Test the Sense HAT
 - title: Faces
-  completion: internal
 - title: And breathe...
